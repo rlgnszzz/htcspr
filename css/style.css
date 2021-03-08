@@ -81,19 +81,19 @@
 .header .menu-toggle-btn {
     float: right;
     width: 20px;
-    margin-top: 5px;
+    margin-top: 15px;
     cursor: pointer;
 }
 
 .header .menu-toggle-btn span {
     display: block;
     width: 100%;
-    height: 4px;
-    background-color: darkblue;
+    height: 3.2px;
+    background-color: blueviolet;
 }
 
-.header .menu-toggle-tn span:nth-child(2) {
-    margin: 4.8px;
+.header .menu-toggle-btn span:nth-child(2) {
+    margin: 5px 0;
 }
 
 /*슬라이더 css*/
@@ -164,19 +164,19 @@
     text-align: center;
 }
 
-.work-section .work-list li {
+.work-section .like-list li {
     width: 100%;
     
 }
 /*배경,글자들의 위치할 기준을 설정하기 위해 relative로 설정*/
-.work-section .work-list li a {
+.work-section .like-list li a {
     display: block;
     position: relative;
     width: 100%;
     height: 100%;
 }
 
-.work-section .work-list li a:before {
+.work-section .like-list li a:before {
     
     display: block;
     position: absolute;
@@ -197,11 +197,11 @@
     transition-duration: 0.45s;
 }
 
-.work-section .work-list li a:hover:before {
+.work-section .like-list li a:hover:before {
     opacity: 0.7;
 } 
 
-.work-section .work-list li .info {
+.work-section .like-list li .info {
     position: absolute;
     top: 0;
     left: 24px;
@@ -209,24 +209,24 @@
     opacity: 0;
 }
 
-.work-section .work-list li a:hover .info {
+.work-section .like-list li a:hover .info {
     transform: translateY(24px);
     opacity: 1.0;
 }
 
-.work-section .work-list li .info h3 {
+.work-section .like-list li .info h3 {
     margin-bottom: 9px;
     font-size: 23px;
     color: aliceblue;
     font-weight: normal;
 }
 
-.work-section .work-list li .info span{
+.work-section .like-list li .info span{
     font-size: 13px;
     color: azure;
 }
 
-.work-section .work-list li img {
+.work-section .like-list li img {
     display: block;
     width: 100%;
     max-width: 100%;
