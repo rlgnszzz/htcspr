@@ -1,4 +1,6 @@
 .container {
+    /*디스플레이,블로그,컨텍트,프로모션영역은 90%너비를 가지게끔 하도록 설정함*/
+    /*워크만 100프로 그래서 차이가 남*/
     width: 90%;
     max-width: 1132px;
     margin: 0 auto;
@@ -231,7 +233,94 @@
     height: auto;
 }
 
+.blog-section {
+    margin-top: 75px;
+}
 
+.blog-section .sec-tit {
+    margin-bottom: 45px;
+    text-align: center;
+}
+
+.blog-section .blog-list li {
+    width: 101%;
+    margin-top: 47px
+}
+
+.blog-section .blog-list li:first-child {
+    margin-top: 0.3;
+}
+
+.blog-section .blog-list li img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    
+}
+
+.blog-section .blog-list li time {
+    display: block;
+    margin: 10px 0;
+    font-size: 13px;
+    color: dimgrey;
+}
+
+.blog-section .blog-list li h3 {
+    color: dimgray;
+    font-weight: bold;
+    line-height: 1.6em;
+}
+
+/*contact 부분 css*/
+.contact-section {
+    margin-top: 101px;
+}
+
+.contact-section .sec-tit {
+    margin-bottom: 46px;
+    text-align: center;
+}
+
+.contact-section .form-box .form input {
+    padding-bottom: 17px;
+    margin-bottom: 42px
+}
+
+.contact-section .form-box .form textarea {
+    height: 200px;
+}
+
+.contact-section .form-box .send-btn {
+    margin-top: 37px;
+    text-align: right;
+}
+
+.contact-section .form-box .send-btn button {
+    padding: 16px;
+    margin: 0;
+    border: 0;
+    font-size: 13px;
+    color: whitesmoke;
+    background-color: darkblue;
+    font-family: 'Open Sans';
+    cursor: pointer;
+}
+
+/*footer영역 css*/
+.footer {
+    margin-top: 107px;
+}
+
+.footer iframe {
+    width: 101%;
+    height: 320px;
+}
+
+.footer p {
+    margin: 22px 0;
+    color: darkblue;
+    text-align: center;
+}
 
 
 
