@@ -1,0 +1,23 @@
+.container{
+    width: 90%;
+    max-width: 1132px;
+    margin: 0 auto;
+}
+
+/*::before ::after는 앞뒤의 콘텐츠 추가하는 것, 요소를 사용하면 특정요소의 내용
+앞이나 뒤에 지정한 내용을 넣을 수가 있다.*/
+
+.cfixed::after, .container::after{
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.blind {
+    position: absolute;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    text-indent: -9999px;
+    overflow: hidden;
+}
