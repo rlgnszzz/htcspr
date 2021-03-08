@@ -17,14 +17,14 @@ you can see the blue one picture that it is the response web picture.
 
 
 In Table version:
-![screenshot-127-0-0-1-5183-15-EC-9E-A5-index-html-1615212707411](https://user-images.githubusercontent.com/4402346/110332835-36d5d380-8064-11eb-9e60-a58654749f8d.png)
-
+![screencapture-127-0-0-1-5183-15-index-html-2021-03-08-23_34_40](https://user-images.githubusercontent.com/4402346/110335303-0a6f8680-8067-11eb-9e35-a9ca0d5d671f.png)
 
 
 In Mobile version:
 ![mobile-min](https://user-images.githubusercontent.com/4402346/110334882-97661000-8066-11eb-83cb-b5e187c8dc32.png)
 
 Also, it has toggle button on the right top.
+![토글](https://user-images.githubusercontent.com/4402346/110335416-270bbe80-8067-11eb-91b6-778fc9a05ac8.PNG)
 
 
 
