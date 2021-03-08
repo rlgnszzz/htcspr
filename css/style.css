@@ -322,6 +322,136 @@
     text-align: center;
 }
 
+  /*pc와 태블릿*/
+@media all and (min-width:769px) {
+    
+    /*기본*/
+    .divider {
+        margin-top: 130px;
+    }
+    
+    .m-divider {
+        margin-top: 130px;   
+    }
+    
+    .header {
+        position: static;
+        padding: 29px 53px;
+    }
+    
+    .header .gnb {
+                   /*중요한 스타일이다라고 알리는것*/
+        display: block !important;
+        position: static;
+        float: right;
+        margin-top: 6px;
+        background: none;
+    }
+    
+    .header .gnb li {
+        float: right;
+        margin-left: 22px;
+        border-bottom: 0;
+    }
+    
+    .header .gnb li a{
+        padding: 0;
+        font-size: 17px;
+        color: midnightblue;
+    }
+    
+    .header .menu-toggle-btn {
+        display: none !important;
+    }
+    
+    /*디스플레이 섹션*/
+    .dispaly-section {
+        margin-top: 97px;
+    }
+    
+    /*프로모션 섹션*/
+    .promotion-section{
+        margin-top: 110px;
+    }
+    
+    .promotion-section .promo-list li {
+        float: left;
+        /*(175/768) * 100 = 23.4375*/
+        width: 22.7864%;
+        /*(20/768) * 100 = 2.60416667*/
+        margin-left: 2.60416667%;
+        margin-top: 0;
+    }
+    .promotion-section .promo-list li:first-child{
+        margin-left: 0;
+    }
+    
+    /*work-section 영역 css*/
+    .work-section {
+        margin-top: 122px;
+    }
+    .work-section .sec-tit {
+        margin-bottom: 77px;
+    }
+    .work-section .like-list li {
+        float: left;
+        width: 49%;
+    }
+    .work-section .like-list li .info {
+        left: 37px;
+    }
+    .work-section .like-list li a:hover .info {
+        transform: translateY(36px);
+    }
+    
+    /*블로그영역*/
+    .blog-section {
+        margin-top: 125px;
+    }
+    
+    .blog-section .sec-tit {
+        margin-bottom: 74px;
+    }
+    
+    .blog-section blog-list li {
+        float: left;
+        width: 31.6px;
+        margin-left: 2.065;
+    }
+    
+    .blog-section blog-list li:first-child {
+        margin-left: 0;
+    }
+    
+    /*contact영역*/
+    .contact-section {
+        margin-top: 174px;
+    }
+    
+    .contact-section .sec-tit {
+        margin-bottom: 74px;
+    }
+    .contact-section .form-box .form, .contact-section .form-box .textarea {
+        float: left;
+        width: 48.7%;
+    }
+    
+    .contact-section .form-box .form{
+        margin-right: 2.7;
+    }
+    .contact-section .form-box .form input:first-child {
+        margin-bottom: 0;
+    }
+    
+    /*footer 영역*/
+    .footer iframe {
+        height: 430px;
+    }
+    .footer p {
+        margin: 36px 0;
+    }
+    
+}
 
 
 
