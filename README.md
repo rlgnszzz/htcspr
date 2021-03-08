@@ -1,5 +1,5 @@
 # htcspr
-HTML5 + CSS3를 이용한 블로그 만들기 실습
+HTML5 + CSS3를 이용한 반응형 웹사이트 만들기.
 
 Naming:
 html + css practice = htcspr
