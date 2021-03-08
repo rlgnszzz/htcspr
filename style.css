@@ -1,0 +1,244 @@
+.container {
+    width: 90%;
+    max-width: 1132px;
+    margin: 0 auto;
+}
+
+/*::before ::after는 앞뒤의 콘텐츠 추가하는 것, 요소를 사용하면 특정요소의 내용
+앞이나 뒤에 지정한 내용을 넣을 수가 있다.*/
+
+.cfixed::after,
+.container::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.blind {
+    position: absolute;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    text-indent: -9999px;
+    overflow: hidden;
+}
+
+.divider {
+    width: 90%;
+    max-height: 1132px;
+    margin: 0 auto;
+    margin-top: 77px;
+    background-color: antiquewhite;
+}
+
+.m-divider {
+    width: 20px;
+    margin: 0 auto;
+    margin-top: 77px;
+    background-color: skyblue;
+}
+
+.header {
+    position: relative;
+    padding: 18px 5px;
+}
+
+.header .logo {
+    float: left;
+}
+
+.header .logo a {
+    font-size: 26px;
+    color: deepskyblue;
+    font-weight: normal;
+}
+
+/*ul css*/
+.header .gnb {
+    display: none;
+    /*모바일용이여서 display none으로 줌*/
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    width: 100%;
+    background-color: deepskyblue;
+}
+
+.header .gnb li {
+    border-bottom: 2px solid deepskyblue;
+}
+
+.header .gnb li {
+    display: block;
+    padding: 14px 0 14px 5%;
+    font-size: 14px;
+    color: wheat;
+}
+
+
+.header .menu-toggle-btn {
+    float: right;
+    width: 20px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.header .menu-toggle-btn span {
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: darkblue;
+}
+
+.header .menu-toggle-tn span:nth-child(2) {
+    margin: 4.8px;
+}
+
+/*슬라이더 css*/
+.slider img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+/*디스플레이 css*/
+.display-section {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.display-section .sec-tit {
+    margin-bottom: 30px;
+}
+
+.display-section .desc {
+    font-family: 'PT Serif';
+    color: dimgray;
+    line-height: 1.9em;
+}
+
+/*프로모션 css*/
+.promotion-section {
+    margin-top: 72px;
+}
+
+.promotion-section .promo-list li {
+    margin-top: 49px;
+    text-align: center;
+}
+
+.promotion-section .promo-list li:first-child {
+    margin-top: 0;
+}
+
+.promotion-section .promo-list li img {
+    height: 60px;
+}
+
+.promotion-section .promo-list li h3 {
+    margin: 29.8px 0 19.7px 0;
+    color: crimson;
+    font-weight: normal;
+}
+
+.promotion-section .promo-list li p {
+    font-size: 14px;
+    font-family: 'PT Serif';
+    color: dimgray;
+    line-height: 1.6em;
+}
+
+/*work 파트 css*/
+.work-section {
+    margin-top: 80px;
+}
+/* 워크단어의 css설정*/
+.work-section .sec-tit {
+    width: 90%;
+    max-width: 1132px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.work-section .work-list li {
+    width: 100%;
+    
+}
+/*배경,글자들의 위치할 기준을 설정하기 위해 relative로 설정*/
+.work-section .work-list li a {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.work-section .work-list li a:before {
+    
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    /*배경색과 컨텐츠를 지정하는데 opacity가 0.0이라 투명해짐*/
+    background-color: #3f51b4;
+    content: "";
+    /*opacity 속성은 요소의 투명도를 적용하는 것이고 값은 0.0~1.0사이의 값을 넣을 수 있음.
+    0.0이 제일 투명*/
+    opacity: 0.1;
+    /*해당하는 모든 요소에 트랜지션을 적용*/
+    transition-property: all;
+    /*해당하는 모든 요소에 트랜지션을 0.45초에 걸려서 적용*/
+    transition-duration: 0.45s;
+}
+
+.work-section .work-list li a:hover:before {
+    opacity: 0.7;
+} 
+
+.work-section .work-list li .info {
+    position: absolute;
+    top: 0;
+    left: 24px;
+    z-index: 19px;
+    opacity: 0;
+}
+
+.work-section .work-list li a:hover .info {
+    transform: translateY(24px);
+    opacity: 1.0;
+}
+
+.work-section .work-list li .info h3 {
+    margin-bottom: 9px;
+    font-size: 23px;
+    color: aliceblue;
+    font-weight: normal;
+}
+
+.work-section .work-list li .info span{
+    font-size: 13px;
+    color: azure;
+}
+
+.work-section .work-list li img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
