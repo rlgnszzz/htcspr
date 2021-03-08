@@ -7,7 +7,7 @@ Used HTML5 and CSS3's Semantic Web.
 I used:
 
 => Language:
- HTML5
+HTML5
 CSS 3
 jQuery(Only for Favicon)
 
