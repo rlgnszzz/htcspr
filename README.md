@@ -24,6 +24,7 @@ In Mobile version:
 ![mobile-min](https://user-images.githubusercontent.com/4402346/110334882-97661000-8066-11eb-83cb-b5e187c8dc32.png)
 
 Also, it has toggle button on the right top.
+
 ![토글](https://user-images.githubusercontent.com/4402346/110335416-270bbe80-8067-11eb-91b6-778fc9a05ac8.PNG)
 
 
