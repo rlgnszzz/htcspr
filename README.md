@@ -3,6 +3,27 @@ HTML5 + CSS3를 이용한 반응형 웹사이트 만들기.
 
 Used HTML5 and CSS3's Semantic Web.
 
+************************************************************************************
+I used:
+
+=> Language:
+ HTML5
+ CSS 3
+ jQuery(Only for Favicon)
+
+=> Software:
+ Bracket // Using for HTML5+CSS3 and jQuery
+
+=> Site:
+ https://pixabay.com/ // Free Images Without Copyright
+ https://www.icoconverter.com/ // Convert to Favicon Image
+ https://imagecompressor.com/  // Help you to Loss Image's Capacity
+
+=> Tools:
+ GoFUllPage from Google chrome extension // For Screenshot
+
+************************************************************************************
+
 Naming:
 html + css practice = htcspr
 
