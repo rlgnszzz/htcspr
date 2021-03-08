@@ -7,20 +7,20 @@ Used HTML5 and CSS3's Semantic Web.
 I used:
 
 => Language:
- HTML5
- CSS 3
- jQuery(Only for Favicon)
+HTML5
+CSS 3
+jQuery(Only for Favicon)
 
 => Software:
- Bracket // Using for HTML5+CSS3 and jQuery
+Bracket // Using for HTML5+CSS3 and jQuery
 
 => Site:
- https://pixabay.com/ // Free Images Without Copyright
- https://www.icoconverter.com/ // Convert to Favicon Image
- https://imagecompressor.com/  // Help you to Loss Image's Capacity
+https://pixabay.com/ // Free Images Without Copyright
+https://www.icoconverter.com/ // Convert to Favicon Image
+https://imagecompressor.com/  // Help you to Loss Image's Capacity
 
 => Tools:
- GoFUllPage from Google chrome extension // For Screenshot
+GoFUllPage from Google chrome extension // For Screenshot
 
 ************************************************************************************
 
