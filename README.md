@@ -1,6 +1,8 @@
 # htcspr
 HTML5 + CSS3를 이용한 반응형 웹사이트 만들기.
 
+Used HTML5 and CSS3's Semantic Web.
+
 Naming:
 html + css practice = htcspr
 
